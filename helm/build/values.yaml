@@ -1,0 +1,15 @@
+app:
+  name: test1-wind-turbine-app
+  namespace: test1
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/test1-wind-turbine
+  org: WindTurbineInc
+  name: test1-wind-turbine
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: test1/wind-turbine-app
+  tag: latest
